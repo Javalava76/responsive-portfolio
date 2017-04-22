@@ -360,6 +360,11 @@ div.desc {
 
 @media screen and (max-width:640px) {
 
+	#masthead {
+		width: 640px;
+	}
+
+
 	header nav h1  {
 		width: 520px;
 		margin-bottom: 0;
@@ -402,5 +407,9 @@ div.desc {
 
 	div.gallery {
 		width: 515px;
+	}
+
+	footer {
+		width: 650px;
 	}
 }
