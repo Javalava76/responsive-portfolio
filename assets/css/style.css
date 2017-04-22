@@ -1,0 +1,400 @@
+/*for styling the menu*/
+
+
+
+body {  
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/e4/67/f3/e467f33c7167c35c074feeb61a197442.jpg);
+    background-repeat: repeat;
+    margin: 0; 
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; ;
+
+}
+
+#masthead { 
+	text-align: center;
+	position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto
+    color: #fff;
+    background: #548254;
+    border-bottom: 5px solid lightblue;
+}
+
+
+#first{
+	height: 80px;
+    width: 160px;
+    background: #548254;
+    float: left;
+}
+
+
+ header h1 {	    
+ 	float: left;
+    width: 250px;
+    height: 90px;
+    background: coral;
+	color:  blanchedalmond;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 41px;
+    font-weight: 700;
+    line-height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.pages {
+	
+	
+    float: right;
+    margin-top: 56px;
+
+   
+}
+
+.pages a  {
+
+	color: blanchedalmond;
+	font-family: inherit;
+	display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+
+}
+
+.pages a:first-child {
+    border-left: 0 none;
+
+}
+
+
+#main-container {
+    padding-top: 130px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+section {
+	float: left;
+	background:  #ebebeb;
+	color: #777;
+	padding:  42px 16px 29px 15px;
+	height: auto;
+	width: 630px; 
+	margin-left: auto;
+	margin-bottom: 19px;
+	margin-top:  56px;
+	border-radius: 6%;
+	
+
+}
+
+section h1 {	    
+ 	height: 40px;
+    width: 100%;
+    float: left;
+    color: coral;
+	font-family:'Georgia', 'Times', Times New Roman, serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+   
+}
+	
+
+	 
+section article. {
+	height: 20px;
+    width: 79px;
+    background: #548254;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 35px;
+    float: left;
+}
+
+article {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: auto;
+    float: left;
+}
+
+/*style used for index/about and portfolio*/
+#profilephoto {
+	width: 100px;
+	float: left;
+	margin-right: 116px;
+}
+
+header section article p {		
+	float: left;
+}
+
+aside {
+	float: right;
+	background:  #ebebeb;
+	color: #777;
+	border-radius: 16%;
+	margin-top: 57px;
+	padding: 34px 27px 3%;
+
+}
+
+aside h2 {
+	color: coral;
+	font-size: x-large;
+	text-align: center;
+	height: 40px;
+	font-family: 'Georgia','Times', Times New Roman, serif;
+}
+
+aside nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+
+aside nav ul li {
+	display: inline-block;
+
+
+
+}
+
+aside nav ul li a {
+	text-decoration: none;
+	list-style-type: none;
+	
+}
+
+footer {
+	clear: both;
+	border-top: thick solid teal;
+	width: 100%;
+	background: #548254;
+	text-align: center;
+	padding: 42px 0;
+	margin-bottom: -80px;
+	font-size: 12px;
+
+
+}
+
+/*this is for contact*/
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+
+#second {
+    padding: 0px 5px;
+    
+}
+
+textarea {
+	width: 100%;
+	height: 300px;
+}
+
+/*this is for portfolio*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: coral;
+}    
+
+/*&&&&&&& MEDIA QUERY &&&&&&&&&&&*/
+
+
+
+@media screen and (max-width:980px) {
+
+
+
+	.container {
+		width: 700px;
+		margin: auto;
+	}
+
+	article img {
+		width: 350px;
+	}
+
+	#profilephoto {
+
+		float: none;
+
+
+	}
+	section {
+
+		max-width: 350px;
+		border-radius: 2%;
+	}
+
+	header nav h1 {
+		width: 256px;
+		float: left;
+		margin-left: 0;
+
+	}
+
+	.pages {
+    	float: right;
+    	margin-top: 55px;
+    	
+
+
+	}
+
+	aside {
+		width: 220px;
+	}
+
+	div.gallery {
+		width: 338px;
+	}
+
+	nav h1 {
+		margin-left: 138px;
+	}
+	
+
+
+	 
+	
+}
+
+@media screen and (max-width:768px) {
+
+	article img {
+		width: 315px;
+	}
+
+	#profilephoto {
+		float: left;
+		width: 271px;
+		margin-right: 68px;
+		margin-top: 9px
+	}
+
+	.container section {
+		max-width: 656px;
+    	padding-right: 37px;
+    	padding-left: 35px;
+
+	}
+
+	article  {
+		font-size: 16px;
+	}
+
+	aside  {
+		width: 606px;
+		float: left;
+		margin-bottom: 32px;
+		margin-top: 17px;
+		padding-right: 45px;
+	}
+
+	aside h2 {
+		text-align: left;
+	}
+
+	aside nav ul  {
+		float: left;
+	}
+
+	div.gallery {
+		width: 303px;
+	}
+}
+
+
+
+
+
+@media screen and (max-width:640px) {
+
+	header nav h1  {
+		width: 520px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	.pages  {
+		width: 795px;
+    	margin-top: 30px;
+    	margin-bottom: 30px;
+	}
+
+	.pages a {
+		font-size: 20px;
+
+	}
+
+	.container section  {
+		width: 536px;
+    	margin-left: 14px;
+    	margin-top: 55px;
+	}
+
+	article img  {
+		width: 535px;
+	}
+
+	#profilephoto  {
+		float: none;
+	}
+
+	article  {
+		font-size: 18px;
+	}
+
+	aside  {
+		margin-left: 15px;
+		width: 532px;
+	}
+
+	div.gallery {
+		width: 515px;
+	}
+}
